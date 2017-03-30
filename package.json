@@ -38,7 +38,6 @@
     "url": "http://github.com/telemark/svarut/issues"
   },
   "dependencies": {
-    "base64-regex": "^2.0.0",
     "easyxml": "2.0.1",
     "ws.js-buffer-fix": "2.1.5"
   },
