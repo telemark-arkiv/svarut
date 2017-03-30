@@ -31,7 +31,7 @@ const options = {
   mottaker: [
     {
       type: 'privatPerson',
-      // type: 'Organisasjon', // Hvis organisasjon
+      // type: 'organisasjon', // Hvis organisasjon
       navn: 'Terje Tverrtryne',
       adresse1: 'Skogsveien 42',
       adresse2: '',
@@ -43,7 +43,7 @@ const options = {
     },
     {
       type: 'privatPerson',
-      // type: 'Organisasjon', // Hvis organisasjon
+      // type: 'organisasjon', // Hvis organisasjon
       navn: 'Terje Tverrtryne2',
       adresse1: 'Skogsveien 42',
       adresse2: '',
@@ -57,7 +57,7 @@ const options = {
   */
   mottaker: {
     type: 'privatPerson',
-    // type: 'Organisasjon', // Hvis organisasjon
+    // type: 'organisasjon', // Hvis organisasjon
     navn: 'Terje Tverrtryne',
     adresse1: 'Skogsveien 42',
     adresse2: '',
