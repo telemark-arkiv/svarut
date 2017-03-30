@@ -1,6 +1,7 @@
 'use strict'
 
 const svarUt = require('./index.js')
+const fs = require('fs')
 
 const options = {
   config: {
@@ -10,12 +11,13 @@ const options = {
   tittel: 'SvarUt testdokument',
   dokumenter: [
     {
+      filsti: fs.readFileSync('test/data/skoleskyss_avslag_vedtak.pdf').toString('base64'),
+      filnavn: 'skoleskyss_avslag_vedtak.pdf',
+      mimetype: 'application/pdf'
+      /* read from file 
       filsti: 'test/data/skoleskyss_avslag_vedtak.pdf',
       mimetype: 'application/pdf'
-    },
-    {
-      filsti: 'test/data/skoleskyss_kvittering.pdf',
-      mimetype: 'application/pdf'
+      */
     }
   ],
   forsendelse: {
