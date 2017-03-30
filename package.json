@@ -1,0 +1,51 @@
+{
+  "name": "svarut",
+  "version": "3.0.0",
+  "description": "Sends documents to svarut",
+  "license": "MIT",
+  "author": {
+    "name": "Jonas Enge",
+    "email": "jonas.enge@t-fk.no",
+    "url": "https://github.com/telemark"
+  },
+  "contributors": [
+    {
+      "name": "Geir Gåsodden",
+      "email": "geir.gasodden@pythonia.no",
+      "url": "https://github.com/zrrrzzt"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "scripts": {
+    "test": "standard && nsp check && ava",
+    "test-offline": "standard && ava",
+    "coverage": "nyc ava",
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls"
+  },
+  "keywords": [
+    "Telemark fylkeskommune",
+    "tfk",
+    "svarut"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/svarut.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/svarut/issues"
+  },
+  "dependencies": {
+    "ws.js-buffer-fix": "2.1.5",
+    "easyxml": "2.0.1"
+  },
+  "devDependencies": {
+    "ava": "0.18.2",
+    "coveralls": "2.11.16",
+    "nsp": "2.6.2",
+    "nyc": "10.1.2",
+    "standard": "9.0.0"
+  }
+}
