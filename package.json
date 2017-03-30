@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "easyxml": "2.0.1",
-    "ws.js-buffer-fix": "2.1.5"
+    "ws.js-buffer-fix": "2.1.6"
   },
   "devDependencies": {
     "ava": "0.18.2",
