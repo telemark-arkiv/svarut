@@ -23,20 +23,23 @@
     "test": "standard && nsp check && ava",
     "test-offline": "standard && ava",
     "coverage": "nyc ava",
-    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls"
+    "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
+    "standard-fix": "standard --fix"
   },
   "keywords": [
     "Telemark fylkeskommune",
     "tfk",
+    "felleskomponenter",
     "svarut"
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/svarut.git"
+    "url": "https://github.com/telemark/svarut.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/svarut/issues"
+    "url": "https://github.com/telemark/svarut/issues"
   },
+  "homepage": "https://github.com/telemark/svarut",
   "dependencies": {
     "easyxml": "2.0.1",
     "ws.js-buffer-fix": "2.1.6"
