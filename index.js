@@ -3,6 +3,10 @@
 const svarut = require('./lib/svarut')
 
 module.exports = async options => {
-  const data = await svarut(options)
-  return data
+  try {
+    const data = await svarut(options)
+    return data
+  } catch (error) {
+    throw error
+  }
 }
