@@ -38,7 +38,7 @@ test('it requires dokument.filsti', async t => {
   try {
     setDokumenter(options)
   } catch (e) {
-    t.true(e.message.includes('Missing required input: options.dokumenter.filsti'), 'missing dokument.filsti')
+    t.true(e.message.includes('Empty array: options.dokumenter must have data'), 'options.dokumenter must have data')
   }
 })
 
