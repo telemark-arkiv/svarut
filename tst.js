@@ -11,13 +11,9 @@ const options = {
   tittel: 'SvarUt testdokument',
   dokumenter: [
     {
-      filsti: fs.readFileSync('test/data/skoleskyss_avslag_vedtak.pdf').toString('base64'),
+      data: fs.readFileSync('test/data/skoleskyss_avslag_vedtak.pdf').toString('base64'), // Must be base64
       filnavn: 'skoleskyss_avslag_vedtak.pdf',
       mimetype: 'application/pdf'
-      /* read from file
-      filsti: 'test/data/skoleskyss_avslag_vedtak.pdf',
-      mimetype: 'application/pdf'
-      */
     }
   ],
   forsendelse: {

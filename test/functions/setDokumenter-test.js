@@ -31,7 +31,7 @@ test('it requires options.dokumenter to be an array', async t => {
   }
 })
 
-test('it requires dokument.filsti', async t => {
+test('it requires dokument.data', async t => {
   const options = {
     dokumenter: []
   }
@@ -46,7 +46,7 @@ test('it requires dokument.mimetype', async t => {
   const options = {
     dokumenter: [
       {
-        filsti: true
+        data: true
       }
     ]
   }
@@ -61,7 +61,7 @@ test('it returns expected data', async t => {
   const options = {
     dokumenter: [
       {
-        filsti: 'test/data/skoleskyss_avslag_vedtak.pdf',
+        data: 'test/data/skoleskyss_avslag_vedtak.pdf',
         mimetype: true
       }
     ]

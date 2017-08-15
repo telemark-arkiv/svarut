@@ -1,6 +1,6 @@
 {
   "name": "svarut",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "description": "Sends documents to svarut",
   "license": "MIT",
   "author": {
@@ -42,13 +42,13 @@
   "homepage": "https://github.com/telemark/svarut",
   "dependencies": {
     "easyxml": "2.0.1",
-    "ws.js-buffer-fix": "2.1.6"
+    "ws.js-buffer-fix": "2.1.7"
   },
   "devDependencies": {
-    "ava": "0.19.1",
-    "coveralls": "2.13.0",
-    "nsp": "2.6.3",
-    "nyc": "10.2.0",
-    "standard": "9.0.2"
+    "ava": "0.22.0",
+    "coveralls": "2.13.1",
+    "nsp": "2.7.0",
+    "nyc": "11.1.0",
+    "standard": "10.0.3"
   }
 }
