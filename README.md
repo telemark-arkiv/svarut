@@ -8,7 +8,7 @@ Node module for SvarUt
 
 More information on SvarUt [here](https://kurs.kommit.no/mod/page/view.php?id=193)
 
-This module does *not* cover all methods in [ForsendelsesServiceV5](https://svarut.ks.no/tjenester/forsendelseservice/ForsendelsesServiceV5?wsdl)
+This module does *not* cover all methods in [ForsendelsesServiceV7](https://svarut.ks.no/tjenester/forsendelseservice/ForsendelsesServiceV7?wsdl)
 
 Currently this module supports sending PDF-document(s) to private persons or organizations with SvarUt.
 
