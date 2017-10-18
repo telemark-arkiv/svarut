@@ -5,8 +5,7 @@ const fs = require('fs')
 
 const options = {
   config: {
-    url: 'https://username:password@test.svarut.ks.no/tjenester/forsendelseservice/ForsendelsesServiceV5',
-    action: 'http://www.ks.no/svarut/services/ForsendelsesServiceV5/sendForsendelse'
+    url: 'https://username:password@test.svarut.ks.no/tjenester/forsendelseservice/ForsendelsesServiceV7'
   },
   tittel: 'SvarUt testdokument',
   dokumenter: [
